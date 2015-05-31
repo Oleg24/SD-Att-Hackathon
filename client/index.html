@@ -13,6 +13,37 @@
   <script src="javascript/script.js"></script>  
 </head>
 <body>
-  
+  <div class="container">
+    <div class="row">
+      <div class="col s12 center">
+        <h4>Welcome to SDC Notifications</h4>
+        <h4>Search For Violations Or Permits</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <a class="waves-effect waves-light btn green lighten-1"><i class="mdi-action-search right"></i>Search By ID</a>
+        <a class="waves-effect waves-light btn green lighten-1"><i class="mdi-action-search right"></i>Search By Address</a>
+      </div>
+      <div class="row">
+        <form class="col s12">
+          <div class="input-field col s12" action="" method="POST">
+            <input placeholder="Enter The Vialation ID" id="code-id" type="text" class="validate">
+            <label for="code-id">Vialation ID</label>
+          </div>
+          <div class="input-field col s12">
+            <input placeholder="Enter your email address" id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+          <div class="col s12 center">
+            <button class="btn waves-effect waves-light green lighten-1 center" type="submit" name="action">Subscribe
+              <i class="mdi-content-send right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+    
 </body>
 </html>
