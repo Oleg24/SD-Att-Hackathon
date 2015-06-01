@@ -1,0 +1,44 @@
+html      {font-family: 'Karma', sans-serif;}
+body      {background-color: #c2e1ed;} 
+img       {width: 100%; height: auto;}
+
+.tabs li .active   {background-color: #122a70;}
+.tabs li           {border-bottom-color: #fff;}
+.tabs li a         {color: #fff !important;}
+.tabs li a         {background-color: #c8c8c8;}
+
+#card       {background-color: #fff; padding: 20px;}
+
+.indicator  {background-color: #c2e1ed !important;}
+
+ /* label color */
+.input-field label {color: #122a70;}
+
+/* label focus color */
+.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=tel]:focus + label {
+  color: #122a70;}
+
+/* label underline focus color */
+.input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field input[type=tel]:focus {
+     border-bottom: 1px solid #122a70;
+     box-shadow: 0 1px 0 0 #000;}
+
+ /* icon prefix focus color */
+.input-field .prefix.active {color: #000;}
+     
+#code-id, #address-id {background-color: #c2e1ed;}
+
+button {margin-top: 20px;}
+
+.results{
+  border: 1px solid black;
+  
+}
+
+.display{
+  display: none;
+}
+
+.item{
+
+}
